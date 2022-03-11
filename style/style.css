@@ -1,0 +1,242 @@
+*,*:before,*:after{
+    font-family: 'Poppins', sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #DCE4E3;
+}
+
+input,textarea{
+
+    outline:none
+
+}
+
+
+button,input[type="submit"]{
+
+    outline:none;
+    border:none;
+
+}
+
+button:hover,input[type="submit"]{
+
+    cursor:pointer;
+    transform: translateY(-0.25em);
+
+}
+
+#container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #DCE4E3;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.sidebar-container-close{
+    width: 78px;
+    height: 100%;
+    background-color: #18C29C;
+    display: flex;
+    flex-direction: column;
+    padding: 26px 27px 0 27px;
+    align-items: center;
+}
+
+.menu-icon{
+    margin-top:26px;
+    cursor: pointer;
+}
+
+.search-icon{
+    width: 24px;
+    height: 24px;
+}
+
+.search-icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCE4E3;
+    border-radius: 12px;
+    width: 50px;
+    height: 50px;
+    margin-top: 26px;
+}
+
+.grid-icon{
+    margin-top:21px;
+}
+
+.pet-icon{
+    margin-top:34px;
+}
+
+.user-icon{
+    margin-top:34px;
+}
+
+.vet-icon{
+    margin-top:34px;
+}
+
+.settings-icon{
+    margin-top:26px;
+}
+
+.out-icon{
+    width: 24px;
+    height: 24px;
+
+}
+
+.out-icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8ED7C6;
+    width: 78px;
+    height: 60px;
+    margin-top: 305px;
+}
+
+.content-container-close{
+    display: flex;
+    margin: 20px 0 0 20px;
+}
+
+.dashboard{
+    width: 141px;
+    height: 38px;
+    top: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+
+    color: #084236;
+
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.sidebar-container-open{
+    display: flex;
+    flex-direction:column;
+    width: 250px;
+    height: 100%;
+    background: #18C29C;
+    color:#084236;
+    transition: visibility 0.5s, opacity 0.5s;
+}
+
+.icons{
+    vertical-align: text-bottom;
+    padding-right: 13px;
+}
+
+.logo-menu-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-icon{
+    margin-top: 24px;
+    margin-left: 29px;
+    margin-right: 105px;
+}
+
+.menu-icon-open{
+    margin-top: 26px;
+    cursor: pointer;
+}
+
+.search-text-box{
+    display: flex;
+    align-items: center;
+    background: #8ED7C6;
+    width: 222px;
+    height: 50.92px;
+    border-radius: 12px;
+    margin-left: 14px;
+    margin-top: 26.88px;
+    padding-left: 13px;
+}
+
+.grid-text-box{
+    margin-top: 20.8px;
+    margin-left: 27px;
+}
+
+.pet-text-box{
+    margin-top: 34px;
+    margin-left: 27px;
+}
+
+.user-text-box{
+    margin-top: 34px;
+    margin-left: 27px;
+}
+
+.vet-text-box{
+    margin-top: 34px;
+    margin-left: 27px;
+}
+
+.settings-text-box{
+    margin-top: 34px;
+    margin-left: 27px;
+}
+
+.photo-out-box{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 60px;
+    background: #8ED7C6;
+    align-items: center;
+    bottom: 0;
+}
+
+
+.photo-box{
+    display: flex;
+    align-items: center;
+    margin-right: 37px;
+}
+
+.photo{
+    display:inline-flex;
+    vertical-align: text-bottom;
+    width: 45px;
+    height: 45px;
+    margin: 8px 9px 7px 14px;
+    border-radius: 12px;
+}
+
+.dashboard-open{
+    margin-top: 18px;
+    margin-left: 32px;
+    width: 141px;
+    height: 38px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    color: #084236;
+}
+
+
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./style/style.css">
+
+<body>
+    <div id="container">
+        <div id="teste" class="sidebar-container-close">
+            <img id="open-menu" class="menu-icon" src="./assets/menu.svg" alt="">
+            <span class="search-icon-box"><img class="search-icon" src="./assets/search.svg" alt=""></span>
+            <img class="grid-icon" src="./assets/grid.svg" alt="">
+            <img class="pet-icon" src="./assets/pet.svg" alt="">
+            <img class="user-icon" src="./assets/user.svg" alt="">
+            <img class="vet-icon" src="./assets/vet.svg" alt="">
+            <img class="settings-icon" src="./assets/settings.svg" alt="">
+            <span class="out-icon-box"><img class="out-icon" src="./assets/log-out.svg" alt=""></span>
+        </div>
+        <div  style="visibility: hidden; display: none; opacity: 0;" id="teste1" class="sidebar-container-open">
+                <div class="logo-menu-box">
+                    <span class="logo-icon"><img class="icons" src="./assets/logo.svg"alt=""></span>
+                    <span id="close-menu" class="menu-icon-open"><img class="icons" src="./assets/menu.svg" alt=""></span>
+                </div>
+                    <span class="search-text-box"><img class="icons" src="./assets/search.svg" alt=""> Buscar</span>
+                    <span class="grid-text-box"><img class="icons" src="./assets/grid.svg" alt="">Dashboard</span>
+                    <span class="pet-text-box"><img class="icons" src="./assets/pet.svg" alt="">Pets</span>
+                    <span class="user-text-box"><img class="icons" src="./assets/user.svg" alt="">Clientes</span>
+                    <span class="vet-text-box"><img class="icons" src="./assets/vet.svg" alt="">Vets</span>
+                    <span class="settings-text-box"><img class="icons" src="./assets/settings.svg" alt="">Ajustes</span>
+                    <div class="photo-out-box">
+                    <span class="photo-box"><img class="photo" src="./assets/avatar.jpg" alt="">Eleanor Pena <br> Veterinária</span>
+                    <span><img class="out" src="./assets/log-out.svg" alt=""></span>
+                </div>
+        </div>
+        <div id="teste1" class="content-container-close">
+            <p class="dashboard">Dashboard</p>
+        </div>
+        <div style="display: none"  class="content-container-open">
+            <p class="dashboard-open">Dashboard</p>
+        </div>
+    </div>
+    
+
+    <script src="./script/script.js"></script>
+
+</body>
+</html>
